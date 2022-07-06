@@ -27,12 +27,30 @@
       <strong>We're sorry but <%= webpackConfig.name %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app">
-      <div class="__spinner-container">
+      <!-- <div class="__spinner-container">
         <div class="__spinner"></div>
+      </div> -->
+      <div class="img_box">
       </div>
     </div>
     <!-- built files will be auto injected -->
-
+    <style type="text/css">
+      .app{
+	      width: 100%;
+        height: 100%;
+      }
+      .img_box{
+	      width: 100%;
+        height: 100%;
+        background-image: url('<%= BASE_URL %>animation_bg.png');;
+        background-size: cover;
+        position: absolute;
+        /* overflow: hidden; */
+        /* overflow: auto; */
+        z-index: -1;
+        background-repeat: no-repeat;
+      }
+    </style>
     <% if (VUE_APP_ENABLE_ERUDA && (VUE_APP_ENABLE_ERUDA === 'true')) { %>
     <!-- console -->
     <script src="//cdn.jsdelivr.net/npm/eruda"></script>
