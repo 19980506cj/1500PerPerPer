@@ -1,15 +1,22 @@
 <template>
   <div>
-    Home
+    <popup></popup>
   </div>
 </template>
 
 <script>
+import Popup from '../../components/Popup'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Popup
+  },
+  data () {
+    return {
+    }
+  },
 }
 </script>
 
 <style>
-
 </style>

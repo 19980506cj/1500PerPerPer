@@ -2,14 +2,7 @@
   <div class="page-container">
     <div class="img_box">
       <div class="page-bottom">
-        <input v-model="phoneValue"
-               @input="handleInput(1)"
-               type="number"
-               @blur="animate()"
-               placeholder="请输入手机号"
-               max="11">
-
-        <!-- <button></button> -->
+        111
       </div>
     </div>
   </div>
@@ -21,19 +14,9 @@ export default {
   name: 'Login',
   data () {
     return {
-      phoneValue: ""
     }
   },
   methods: {
-    animate () {
-      var re = /^1\d{10}$/;
-      let str = this.phoneValue;
-      if (re.test(str)) {
-        alert('成功')
-      } else {
-        alert('抱歉手机号不合法')
-      }
-    }
   }
 }
 </script>
