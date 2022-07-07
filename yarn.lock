@@ -8173,10 +8173,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^3.0.18:
+vant@3.0.18:
   version "3.0.18"
-  resolved "https://registry.nlark.com/vant/download/vant-3.0.18.tgz?cache=0&sync_timestamp=1622701530893&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvant%2Fdownload%2Fvant-3.0.18.tgz#5fbce67b22d86455a9dffb9dc66af8e43170d818"
-  integrity sha1-X7zmeyLYZFWp3/udxmr45DFw2Bg=
+  resolved "https://registry.yarnpkg.com/vant/-/vant-3.0.18.tgz#5fbce67b22d86455a9dffb9dc66af8e43170d818"
+  integrity sha512-4DsUaCx1XH+NAQGQ2VCm1WsP4O0VhUoh7CDKTXLZuYwwyXNu6+Zv2HrdQzDsnimETTtd1Iff6J3svvrPS86d/A==
   dependencies:
     "@vant/icons" "^1.6.0"
     "@vant/lazyload" "^1.2.0"
