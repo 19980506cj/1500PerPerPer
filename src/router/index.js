@@ -14,6 +14,14 @@ const router = createRouter({
       }
     },
     {
+      path: '/game',
+      name: 'Game',
+      component: () => import('@/views/game'),
+      meta: {
+        title: '游戏页面'
+      }
+    },
+    {
       path: '/login',
       name: 'Login',
       component: () => import('@/views/login'),
